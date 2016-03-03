@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main" >
+
+    <LinearLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fixed_height_normal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_weight="1"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_choose_character" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layoutTop"
+        android:layout_marginBottom="@dimen/margin_minimal"
+        android:layout_marginLeft="@dimen/margin_minimal"
+        android:layout_marginRight="@dimen/margin_minimal"
+        android:background="@drawable/light_blue_roundrect_back"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/layoutCharacter"
+                android:layout_width="145dp"
+                android:layout_height="188dp"
+                android:background="@drawable/bg_frame" >
+
+                <ImageView
+                    android:id="@+id/imgCharacter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:background="@drawable/sample_character" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tvDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Boss is a Level 1 Frost Mage on page 1 of chapter 1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2016-02-05 02:32:48"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+
+                <TextView
+                    android:id="@+id/tvStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adventure in Progress"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_minimal"
+                    android:text="@string/notify_description"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:layout_width="24dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/ic_checkbox_off" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/email"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/fontsize1" />
+
+                    <Button
+                        android:layout_width="24dp"
+                        android:layout_height="21dp"
+                        android:layout_marginLeft="@dimen/margin_small"
+                        android:background="@drawable/ic_checkbox" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/push_notification"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/fontsize1" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btnConfirm"
+            android:layout_width="98dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/margin_minimal"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_confirm_green"
+            android:scaleType="fitEnd" />
+
+        <ImageView
+            android:id="@+id/btnCancel"
+            android:layout_width="83dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_minimal"
+            android:layout_marginRight="@dimen/margin_small"
+            android:layout_toLeftOf="@id/btnConfirm"
+            android:background="@drawable/ic_cancel"
+            android:scaleType="fitEnd" />
+
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_minimal"
+            android:layout_marginRight="@dimen/margin_small"
+            android:layout_toLeftOf="@id/btnCancel"
+            android:background="@drawable/ic_delete"
+            android:scaleType="fitEnd" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_arrow_left" />
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_arrow_right" />
+
+</RelativeLayout>

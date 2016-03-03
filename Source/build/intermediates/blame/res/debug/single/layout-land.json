@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_attribute.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\fragment_attribute.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_maingame.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\activity_maingame.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_startgame.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\activity_startgame.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_choosecharacter.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\activity_choosecharacter.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_createcharacter.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\activity_createcharacter.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_action.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\fragment_action.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_game.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\fragment_game.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_mainlogin.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\layout-land\\activity_mainlogin.xml"
+    }
+]

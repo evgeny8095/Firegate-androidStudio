@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">FireGate</string>
+
+    <string name="remember_me">REMEMBER ME</string>
+    <string name="sample_description">Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.</string>
+    <string name="notify_description">Notify on new Action Points by</string>
+    <string name="email">Email</string>
+    <string name="push_notification">Push notifications</string>
+    <string name="upload_instruction1">Upload an image</string>
+    <string name="upload_instruction2">from your library or user your camera?</string>
+    <string name="game">GAME</string>
+    <string name="chat">CHAT</string>
+    <string name="action">ACTION</string>
+    <string name="details">DETAILS</string>
+    <string name="action_round">Action Rounds</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="kick_player">Kick Player</string>
+    <string name="nudge_player">Nudge Player</string>
+    <string name="change_adventure">Change Adventure</string>
+    <string name="quit_adventure">Quit Adventure</string>
+</resources>

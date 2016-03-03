@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_main.png",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\drawable-xhdpi\\bg_main.png"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_checkbox.png",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\drawable-xhdpi\\ic_checkbox.png"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_checkbox_off.png",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\drawable-xhdpi\\ic_checkbox_off.png"
+    }
+]

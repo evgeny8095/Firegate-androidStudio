@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fixed_height_small"
+        android:layout_marginLeft="@dimen/margin_minimal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layoutTopbar"
+            android:layout_width="0dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_tab_action"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_minimal"
+                android:gravity="center_vertical"
+                android:text="@string/action"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:gravity="center_vertical|right"
+                android:text="38:52"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize1" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_minussmall"
+        android:layout_marginTop="@dimen/margin_minustiny"
+        android:background="@drawable/dark_blue_roundrect_back"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="@dimen/fixed_width_large"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_minimal"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layoutActionRounds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnActionRounds"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_radio_off" />
+
+                <TextView
+                    android:id="@+id/tvActionRounds"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_round"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutInviteFriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnInviteFriend"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_radio_on" />
+
+                <TextView
+                    android:id="@+id/tvInviteFriend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/invite_friend"
+                    android:textColor="@color/fontcolor_orange"
+                    android:textSize="@dimen/fontsize1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutKickPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnKickPlayer"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_radio_off" />
+
+                <TextView
+                    android:id="@+id/tvKickPlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kick_player"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutNudgePlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnNudgePlayer"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_radio_off" />
+
+                <TextView
+                    android:id="@+id/tvNudgePlayer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nudge_player"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutChangeAdventure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnChangeAdventure"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_radio_off" />
+
+                <TextView
+                    android:id="@+id/tvChangeAdventure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/change_adventure"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutQuitAdventure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnQuitAdventure"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_radio_off" />
+
+                <TextView
+                    android:id="@+id/tvQuitAdventure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/quit_adventure"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/fontsize1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:background="@drawable/white_roundrect_back" >
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="98dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/margin_minimal"
+                android:layout_marginRight="@dimen/margin_small"
+                android:background="@drawable/ic_confirm_green" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

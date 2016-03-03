@@ -1,0 +1,91 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:1:1-52:12
+	package
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:2:5-35
+	android:versionName
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:4:5-30
+		INJECTED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml
+		INJECTED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:3:5-28
+		INJECTED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml
+		INJECTED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:8:9-38
+	android:minSdkVersion
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:7:9-35
+application
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:10:5-50:19
+	android:label
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:14:9-40
+activity#com.android.firegate.ui.activities.MainLoginActivity
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:15:9-25:20
+	android:screenOrientation
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:19:13-50
+	android:label
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:18:13-45
+	android:configChanges
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:16:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:23:27-74
+activity#com.android.firegate.ui.activities.StartGameActivity
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:26:9-31:20
+	android:screenOrientation
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:30:13-50
+	android:label
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:29:13-45
+	android:configChanges
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:28:13-74
+	android:name
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:27:13-60
+activity#com.android.firegate.ui.activities.CreateCharacterActivity
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:32:9-37:20
+	android:screenOrientation
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:36:13-50
+	android:label
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:35:13-45
+	android:configChanges
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:34:13-74
+	android:name
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:33:13-66
+activity#com.android.firegate.ui.activities.ChooseCharacterActivity
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:38:9-43:20
+	android:screenOrientation
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:42:13-50
+	android:label
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:41:13-45
+	android:configChanges
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:40:13-74
+	android:name
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:39:13-66
+activity#com.android.firegate.ui.activities.MainGameActivity
+ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:44:9-49:20
+	android:screenOrientation
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:48:13-50
+	android:label
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:47:13-45
+	android:configChanges
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:46:13-74
+	android:name
+		ADDED from D:\MyWORK\2016\14-160301-500(android-Evgeny)\Source\AndroidManifest.xml:45:13-59

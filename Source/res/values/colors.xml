@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_bg">#1572a0</color>
+    <color name="header_bg">#00228f</color>
+    <color name="bottom_bg">#002e47</color>
+    <color name="signup_bg1">#014262</color>
+    <color name="signup_bg2">#f4f4f4</color>
+    <color name="more_bg">#c8c8c8</color>
+    <color name="fontcolor_red">#ff0000</color>
+    <color name="fontcolor_orange">#ff8000</color>
+    <color name="fontcolor_grey">#7a7a7a</color>
+    <color name="grey_color">#d9d9d9</color>
+    <color name="grey_text">#666666</color>
+    <color name="text_light_grey">#ffbfbfbf</color>
+    <color name="divider_color">#de6515</color>
+    <color name="font_color">#d33800</color>
+    <color name="text_color2">#8d8d8d</color>
+    <color name="text_color3">#606466</color>
+    <color name="setting_bg">#76a5af</color>
+    <color name="notify_bg">#c8000000</color>
+    <color name="grey_trans">#809d9d9d</color>
+    <color name="grey_light">#acacac</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="purple">#3a2f8b</color>
+    <color name="white">#ffffff</color>
+	<color name="blue_facebook_light">#436abb</color>
+	<color name="blue_facebook">#3b5999</color>
+	<color name="pink">#ec0084</color>
+	<color name="purple_light_very">#8f83ed</color>
+	
+	<color name="icon_bg">#e4a215</color>
+	<color name="content_bg">#cdcac1</color>
+	<color name="event_item_bg">#eae7dc</color>
+	<color name="sub_header_bg">#202020</color>
+	<color name="type_text_color">#909090</color>
+	<color name="sign_in_text_color">#00228f</color>
+	<color name="comment_rootBg">#eae8dc</color>
+	<color name="comment_childBg">#cdcac1</color>
+    
+</resources>

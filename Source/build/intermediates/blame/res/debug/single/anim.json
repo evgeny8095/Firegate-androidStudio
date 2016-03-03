@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_finish.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\anim\\slide_in_finish.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\anim\\slide_out.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_finish.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\anim\\slide_out_finish.xml"
+    },
+    {
+        "merged": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in.xml",
+        "source": "D:\\MyWORK\\2016\\14-160301-500(android-Evgeny)\\Source\\res\\anim\\slide_in.xml"
+    }
+]

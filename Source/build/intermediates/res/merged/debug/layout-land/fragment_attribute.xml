@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fixed_height_small"
+        android:layout_marginLeft="@dimen/margin_minimal"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/layoutTopbar"
+            android:layout_width="0dp"
+            android:layout_height="31dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_tab_action"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:background="@drawable/ic_health"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="4"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_mana"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="4"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/ic_action_point"
+                    android:contentDescription="@string/app_name" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="4"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_minussmall"
+        android:layout_marginTop="@dimen/margin_minustiny"
+        android:background="@drawable/dark_blue_roundrect_back"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imgEmpty1"
+                android:layout_width="70dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_large"
+                android:background="@drawable/ic_empty_chat" />
+
+            <Button
+                android:id="@+id/btnInviteFriends1"
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:layout_alignBottom="@id/imgEmpty1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/ic_invite_button" />
+
+            <TextView
+                android:id="@+id/tvCharacterName1"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Boss"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <TextView
+                android:id="@+id/tvCharacterType1"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCharacterName1"
+                android:layout_centerHorizontal="true"
+                android:text="Frost Mage"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <ImageView
+                android:id="@+id/imgCharacter1"
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:alpha="0.5"
+                android:background="@drawable/sample_character" />
+
+            <ListView
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal" />
+
+            <Button
+                android:id="@+id/btnReport1"
+                android:layout_width="83dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:background="@drawable/ic_report" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imgEmpty2"
+                android:layout_width="70dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_large"
+                android:background="@drawable/ic_empty_chat" />
+
+            <Button
+                android:id="@+id/btnInviteFriends2"
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:layout_alignBottom="@id/imgEmpty2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/ic_invite_button" />
+
+            <TextView
+                android:id="@+id/tvCharacterName2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Boss"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <TextView
+                android:id="@+id/tvCharacterType2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCharacterName2"
+                android:layout_centerHorizontal="true"
+                android:text="Frost Mage"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <ImageView
+                android:id="@+id/imgCharacter2"
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:alpha="0.5"
+                android:background="@drawable/sample_character" />
+
+            <ListView
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal" />
+
+            <Button
+                android:id="@+id/btnReport2"
+                android:layout_width="83dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:background="@drawable/ic_report" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/imgEmpty3"
+                android:layout_width="70dp"
+                android:layout_height="160dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_large"
+                android:background="@drawable/ic_empty_chat" />
+
+            <Button
+                android:id="@+id/btnInviteFriends3"
+                android:layout_width="88dp"
+                android:layout_height="35dp"
+                android:layout_alignBottom="@id/imgEmpty3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:background="@drawable/ic_invite_button" />
+
+            <TextView
+                android:id="@+id/tvCharacterName3"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Boss"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <TextView
+                android:id="@+id/tvCharacterType3"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCharacterName3"
+                android:layout_centerHorizontal="true"
+                android:text="Frost Mage"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <ListView
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal" />
+
+            <ImageView
+                android:id="@+id/imgCharacter3"
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:alpha="0.5"
+                android:background="@drawable/sample_character" />
+
+            <Button
+                android:id="@+id/btnReport3"
+                android:layout_width="83dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:background="@drawable/ic_report" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tvCharacterName4"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Boss"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <TextView
+                android:id="@+id/tvCharacterType4"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvCharacterName4"
+                android:layout_centerHorizontal="true"
+                android:text="Frost Mage"
+                android:textColor="@color/white"
+                android:textSize="@dimen/fontsize0" />
+
+            <ListView
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal" />
+
+            <ImageView
+                android:id="@+id/imgCharacter4"
+                android:layout_width="90dp"
+                android:layout_height="160dp"
+                android:layout_below="@id/tvCharacterType4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_minimal"
+                android:alpha="0.5"
+                android:background="@drawable/sample_character" />
+
+            <Button
+                android:id="@+id/btnDetails"
+                android:layout_width="83dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_medium"
+                android:background="@drawable/ic_details"
+                android:text="@string/details"
+                android:textColor="@color/white"
+                android:textSize="11sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

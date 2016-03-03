@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue_facebook">#3b5999</color>
+    <color name="blue_facebook_light">#436abb</color>
+    <color name="bottom_bg">#002e47</color>
+    <color name="comment_childBg">#cdcac1</color>
+    <color name="comment_rootBg">#eae8dc</color>
+    <color name="content_bg">#cdcac1</color>
+    <color name="divider_color">#de6515</color>
+    <color name="event_item_bg">#eae7dc</color>
+    <color name="font_color">#d33800</color>
+    <color name="fontcolor_grey">#7a7a7a</color>
+    <color name="fontcolor_orange">#ff8000</color>
+    <color name="fontcolor_red">#ff0000</color>
+    <color name="grey_color">#d9d9d9</color>
+    <color name="grey_light">#acacac</color>
+    <color name="grey_text">#666666</color>
+    <color name="grey_trans">#809d9d9d</color>
+    <color name="header_bg">#00228f</color>
+    <color name="icon_bg">#e4a215</color>
+    <color name="main_bg">#1572a0</color>
+    <color name="more_bg">#c8c8c8</color>
+    <color name="notify_bg">#c8000000</color>
+    <color name="pink">#ec0084</color>
+    <color name="purple">#3a2f8b</color>
+    <color name="purple_light_very">#8f83ed</color>
+    <color name="setting_bg">#76a5af</color>
+    <color name="sign_in_text_color">#00228f</color>
+    <color name="signup_bg1">#014262</color>
+    <color name="signup_bg2">#f4f4f4</color>
+    <color name="sub_header_bg">#202020</color>
+    <color name="text_color2">#8d8d8d</color>
+    <color name="text_color3">#606466</color>
+    <color name="text_light_grey">#ffbfbfbf</color>
+    <color name="transparent">#00000000</color>
+    <color name="type_text_color">#909090</color>
+    <color name="white">#ffffff</color>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="bottom_height">80dp</dimen>
+    <dimen name="fixed_height">50dp</dimen>
+    <dimen name="fixed_height_medium">45dp</dimen>
+    <dimen name="fixed_height_normal">35dp</dimen>
+    <dimen name="fixed_height_small">30dp</dimen>
+    <dimen name="fixed_img_width">25dp</dimen>
+    <dimen name="fixed_width_large">140dp</dimen>
+    <dimen name="fontsize0">12sp</dimen>
+    <dimen name="fontsize1">14sp</dimen>
+    <dimen name="fontsize10">40sp</dimen>
+    <dimen name="fontsize11">46sp</dimen>
+    <dimen name="fontsize12">48sp</dimen>
+    <dimen name="fontsize13">50sp</dimen>
+    <dimen name="fontsize2">16sp</dimen>
+    <dimen name="fontsize3">18sp</dimen>
+    <dimen name="fontsize4">20sp</dimen>
+    <dimen name="fontsize5">22sp</dimen>
+    <dimen name="fontsize6">24sp</dimen>
+    <dimen name="fontsize7">28sp</dimen>
+    <dimen name="fontsize8">30sp</dimen>
+    <dimen name="fontsize9">36sp</dimen>
+    <dimen name="fontsize_title">20sp</dimen>
+    <dimen name="header_height">55dp</dimen>
+    <dimen name="margin_extra">60dp</dimen>
+    <dimen name="margin_large">40dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_minimal">5dp</dimen>
+    <dimen name="margin_minusmin">-5dp</dimen>
+    <dimen name="margin_minussmall">-10dp</dimen>
+    <dimen name="margin_minustiny">-2dp</dimen>
+    <dimen name="margin_normal">20dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_tinysmall">3dp</dimen>
+    <string name="action">ACTION</string>
+    <string name="action_round">Action Rounds</string>
+    <string name="app_name">FireGate</string>
+    <string name="change_adventure">Change Adventure</string>
+    <string name="chat">CHAT</string>
+    <string name="details">DETAILS</string>
+    <string name="email">Email</string>
+    <string name="game">GAME</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="kick_player">Kick Player</string>
+    <string name="notify_description">Notify on new Action Points by</string>
+    <string name="nudge_player">Nudge Player</string>
+    <string name="push_notification">Push notifications</string>
+    <string name="quit_adventure">Quit Adventure</string>
+    <string name="remember_me">REMEMBER ME</string>
+    <string name="sample_description">Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.Lorem lpsum is simply dummy text of the printing and typesetting Loreum lpsum is simply dummy text of the printing and type-setting Loreum lpsum is simply dummy text of the printing  and typesetting.</string>
+    <string name="upload_instruction1">Upload an image</string>
+    <string name="upload_instruction2">from your library or user your camera?</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
